@@ -34,7 +34,7 @@ function renderList() {
     <li class="shopping-item">
       <input type="checkbox" ${completed && 'checked'} data-id="${id}" />
       <span class="itemName">${name}</span>
-      <button  aria-label="Remove ${name}" data-id="${id}">&times;</button>
+      <button aria-label="Remove ${name}" data-id="${id}">&times;</button>
     </li>
   `
     )
